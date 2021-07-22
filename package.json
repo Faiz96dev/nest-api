@@ -24,8 +24,11 @@
     "@nestjs/common": "^7.6.15",
     "@nestjs/config": "^0.6.3",
     "@nestjs/core": "^7.6.15",
+    "@nestjs/jwt": "^8.0.0",
     "@nestjs/platform-express": "^7.6.15",
     "@nestjs/sequelize": "^0.2.0",
+    "@nestjs/swagger": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "cross-env": "^7.0.3",
     "pg": "^8.6.0",
     "pg-hstore": "^2.3.4",
@@ -33,7 +36,8 @@
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6",
     "sequelize": "6.6.2",
-    "sequelize-typescript": "^2.1.0"
+    "sequelize-typescript": "^2.1.0",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.6.0",
