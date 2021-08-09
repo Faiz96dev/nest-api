@@ -1,17 +1,14 @@
 import {Module} from "@nestjs/common";
 import {SequelizeModule} from "@nestjs/sequelize";
 import {UsersModule} from './users/users.module';
-import {UsersController} from "./users/users.controller";
-import {UsersService} from "./users/users.service";
 import {ConfigModule} from "@nestjs/config";
 import {User} from "./users/users.models";
 import {RolesModule} from './roles/roles.module';
 import {UserRoles} from "./roles/user-roles.models";
 import {Role} from "./roles/roles.models";
-import {RolesController} from "./roles/roles.controller";
-import {RolesService} from "./roles/roles.service";
 import { AuthService } from './auth/auth.service';
 import { AuthModule } from './auth/auth.module';
+import {JwtModule} from "@nestjs/jwt";
 
 @Module({
     controllers: [],
